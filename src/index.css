@@ -1,0 +1,123 @@
+/* Global */
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* Chats Page */
+
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: #002766;
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  /* background-image: linear-gradient(#40a9ff, #096dd9); */
+  background-image: url("https://img.freepik.com/free-vector/comic-speech-bubble-set-cartoon-empty-text-box-clouds-different-shapes-abstract-icon-flat-blank-bubbles-comics-message-balloon_222220-24.jpg?w=2000");
+    background-repeat: repeat;
+  /* height: 100vh; */
+  background-position: 0 0; 
+  background-size: cover;
+ /* background-position:center center; */
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  position: relative;
+  top: calc(50vh - 144px);
+  left: calc(50vw - 210px);
+  padding-top: 36px;
+  padding-bottom: 66px;
+  width: 420px;
+  text-align: center;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 40px 0px 60px 20px;
+  backdrop-filter: blur(25px);
+}
+
+.login-button {
+  cursor: pointer;
+  background-color: #096dd9;
+  padding: 12px;
+  border-radius: 0px 20px;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.google {
+  background-color: #4285f4;
+  color: white;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+.footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  color:black;
+  text-align: center;
+  padding: 8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgba(255,255,255,.5);
+
+}
